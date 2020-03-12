@@ -2,16 +2,14 @@
 
 ## Installation
 ```
-# Install gem (only first time)
+# Install rails (only first time)
 gem install rails
 
 # Create new project
 rails new blog
-```
 
-```
-# Generate Post
-rails g scaffold Post title:string content:string
+# Install dependencies
+bundle install
 ```
 
 ## Start
@@ -20,4 +18,10 @@ rails g scaffold Post title:string content:string
 rails s
 # or
 rails server
+```
+
+## Generate
+```
+# Generate Post
+rails g scaffold Post title:string content:string
 ```
